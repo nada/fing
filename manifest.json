@@ -1,0 +1,34 @@
+{
+  "background": {
+    "scripts": ["js/fing.js", "js/background.js"]
+  },
+   "description": "Fing",
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+   },
+  "manifest_version": 2,
+
+  "name": "Fing",
+  "options_page": "fing-options.html",
+
+  "version": "1.0",
+
+  "permissions": [
+      "webRequest",
+      "webRequest", 
+      "webRequestBlocking",
+      "tabs",
+      "contextMenus",
+      "storage",
+      /*"https://ajax.googleapis.com/",*/
+      "background",
+      "http://*/*"
+    ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.0"/*,
+    "web_accessible_resources": [ "feedly-icon-48.png", "feedly-icon-black-48.png", "gc-options.htm", "extension/feedly-mini-add@2x.png", "extension/feedly-mini-twitter@2x.png", "extension/feedly-mini-facebook@2x.png", "extension/feedly-mini-email@2x.png", "extension/feedly-mini-evernote@2x.png", "extension/feedly-mini-save@2x.png", "extension/feedly-mini-tag@2x.png", "extension/feedly-mini-prefs@2x.png" ]*
+    */
+}
